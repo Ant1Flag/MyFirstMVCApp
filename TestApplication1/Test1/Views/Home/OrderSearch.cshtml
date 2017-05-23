@@ -1,0 +1,11 @@
+﻿@model IEnumerable<AjaxMvcApplication.Models.Order>
+
+<div id="searchresults">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.Total</li>
+        }
+    </ul>
+</div>
+
